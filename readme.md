@@ -1,6 +1,8 @@
 # 在上传文件的时候需要 git bash 先推送一下，然后用 vscode
 
-# 在 git bash 中上传本地文件夹 BIO 的命令
+# 在 git bash 中上传本地文件夹 BIO 的命
+
+# 开始工作前要拉取仓库
 
 cd /path/to/BIO
 git init
