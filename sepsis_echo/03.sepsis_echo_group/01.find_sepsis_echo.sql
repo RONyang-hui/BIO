@@ -3,7 +3,7 @@ create view step4 as
 with t1 as
     (
         select icustay_id,
-        -- 计算入ICU时间与出生时间差（结果为秒，再除以一年的秒得到）
+        -- 计算入ICU时间与出生时间差（结果为秒，再除以一年的秒得到的结果）
         extract('epoch' from (intime - dob)) / 60.0 / 60.0 / 24.0 / 365 as age
         from icustays
         left join patients using (subject_id)
