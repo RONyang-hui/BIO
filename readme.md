@@ -13,5 +13,6 @@ git remote add origin https://github.com/RONyang-hui/BIO.git
 
 # 更新已经有的仓库
 
-git remote add origin https://github.com/RONyang-hui/BIO.git
+git remote set-url origin https://github.com/RONyang-hui/BIO.git
+
 git push -u origin main
