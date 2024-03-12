@@ -18,3 +18,5 @@ git remote add origin https://github.com/RONyang-hui/BIO.git
 git remote set-url origin https://github.com/RONyang-hui/BIO.git
 
 git push -u origin main
+
+需要先拉取
